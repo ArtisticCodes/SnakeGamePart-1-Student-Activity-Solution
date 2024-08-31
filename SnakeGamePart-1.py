@@ -81,14 +81,14 @@ while running:
 
     #**********************************************STUDENT ACTIVITY********************************************************************
 
-    # if snake_x < 0:
-    #     running = False
-    # elif snake_x>=SCREEN_WIDTH:
-    #     running=False
-    # elif snake_y < 0:
-    #     running=False
-    # elif snake_y >= SCREEN_HEIGHT:
-    #     running=False
+    if snake_x < 0:
+        running = False
+    elif snake_x>=SCREEN_WIDTH:
+        running=False
+    elif snake_y < 0:
+        running=False
+    elif snake_y >= SCREEN_HEIGHT:
+        running=False
     
 
     #****************************************************************************************************************************
